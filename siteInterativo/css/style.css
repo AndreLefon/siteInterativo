@@ -1,0 +1,28 @@
+html,body{
+    background-image: url(../img/bg.jpg);
+    width: 100%;
+    height:100%;
+}
+@media screen and (min-width: 601px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    html {
+      font-size: 18px;
+    }
+  }
+.jumbotron{
+    background-color: rgb(29, 29, 29);
+    opacity: 80%;
+    color: blanchedalmond;
+}
+.height-80 {height: 80vh;}
+.row{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card{color: black;}
+.bnt-abrir-prod:hover{background-color: rgb(216, 213, 213);}
